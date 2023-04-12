@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descricpcion de lapagina, palabras claves para SEO">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+    <title>Document</title>
+</head>
+<body>    
+    <main>       
+        <div class="container">
+            <h1>Project: Rock Paper Scissors<span class="reset" onclick="reset()">Reset Game</span></h1>         
+            <div class="player"><span id="scorePlayer">0</span></div> 
+            <div class="btn" onclick="playAgain()">PLAY</div>
+            <div class="pc"><span id="scorePC">0</span></div>
+
+            <div class="elemento" id="rock">
+                <div class="opcion" id="playerrock" onclick="playHuman(this.id)"></div>
+                <div class="opcionPC" id="pcrock"></div>
+            </div>
+            <div class="elemento" id="scissors">
+                <div class="opcion" id="playerscissors" onclick="playHuman(this.id)"></div>
+                <div class="opcionPC" id="pcscissors"></div>
+            </div>
+            <div class="elemento" id="paper">
+                <div class="opcion" id="playerpaper" onclick="playHuman(this.id)"></div>
+                <div class="opcionPC" id="pcpaper"></div>
+            </div>
+        </div>
+        <div id="divMsg" class="msg"><span id="msg"></span> </div>
+
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+<!--
+    https://www.iconfinder.com/icons/8685772/ic_fluent_desktop_keyboard_filled_icon
+    https://www.iconfinder.com/icons/3869170/audio_play_video_icon
+    https://www.iconfinder.com/icons/8685663/ic_fluent_desktop_cursor_filled_icon
+    https://www.iconfinder.com/icons/9035899/person_sharp_icon
+-->

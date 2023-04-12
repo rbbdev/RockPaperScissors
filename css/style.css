@@ -1,0 +1,124 @@
+.score,.btn,.player,.pc{
+    display: inline-flex;
+    width: 300px;
+    height: 65px;
+    line-height: 65px;      
+    margin-top: 0px;
+}
+.reset{ 
+    font-size: 14px;
+    background-color: pink;
+    color:white;
+}
+
+.reset:hover{
+    cursor: pointer;
+    
+    color:red;
+}
+
+.player{   
+    background-color:#7070db;  
+    background-image:url("../img/8686101_ic_fluent_person_filled_icon white.png");
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+}
+.pc{
+    background-color:#7070db;  
+    background-image:url("../img/8685663_ic_fluent_desktop_cursor_filled_icon_white.png");
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+}
+
+span{
+    font-size: 60px;
+    margin-left: 190px;
+    color: white;
+    font-weight: bolder;
+}
+
+.btn{
+    background-color: #4CAF50;    
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 48px;
+    border-radius: 10%;
+    width: 140px;
+    height: 65px;
+}
+
+.btn:hover{
+    background-color: #9ae906;
+    cursor: pointer;
+}
+
+
+.opcion:hover, .opcionPC:hover{
+    cursor: pointer;
+}
+h1{
+    background-color:#00415a;
+    text-align: center;
+    color: white;
+}
+
+.container{    
+    margin: auto;
+    width: 750px;
+}
+.board{
+    width: 750px;
+    height: 350px;
+    background-color: rgb(210, 241, 241);
+}
+
+.opcion,.opcionPC{
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    border-radius: 80%;
+    /* background-color: rgb(112, 129, 148,0.1);*/
+    background-color: #a4b6ce;
+} 
+
+.elemento{
+    margin-top: 15px;
+    height: 120px;
+    width: 750px;
+    position: relative;
+}
+
+#playerrock,#playerscissors,#playerpaper,#pcrock,#pcscissors,#pcpaper
+{
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#playerrock,#pcrock{
+        background-image: url("../img/rock.png") ;   
+}
+
+#playerscissors,#pcscissors{
+    background-image: url("../img/scissors.png") ;
+}
+
+#playerpaper,#pcpaper{
+    background-image: url("../img/paper.png") ;
+}
+
+#pcrock,#pcscissors,#pcpaper{
+    position: absolute;
+    right: 0px;
+}
+#divMsg{
+    margin: auto;
+    width: 750px;
+    height: 35px;
+    background-color: #448dee;
+    
+}
+
+#msg{
+    font-size: 30px;    
+}
